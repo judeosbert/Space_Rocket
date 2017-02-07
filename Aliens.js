@@ -26,6 +26,7 @@ function Aliens() {
         this.y = this.y + this.speed;
         if (this.y > height) {
             this.reinit();
+            escapedInvaders+=1;
         }
         if (this.x<width/2)
         {
