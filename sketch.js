@@ -1,5 +1,6 @@
 var n =1;
 var c =4;
+var escapedInvaders = 0;
 function setup()
 {
 createCanvas(800,800);
